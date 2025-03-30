@@ -25,7 +25,6 @@ return {
 
   { import = "astrocommunity.fuzzy-finder.fzf-lua" },
 
-  { import = "astrocommunity.recipes.astrolsp-auto-signature-help" },
   { import = "astrocommunity.recipes.heirline-mode-text-statusline" },
   { import = "astrocommunity.recipes.picker-nvchad-theme" },
 }
