@@ -23,8 +23,19 @@ return {
 
   { import = "astrocommunity.editing-support.copilotchat-nvim" },
 
-  { import = "astrocommunity.fuzzy-finder.fzf-lua" },
+  -- { import = "astrocommunity.fuzzy-finder.fzf-lua" },
+  { import = "astrocommunity.fuzzy-finder.snacks-picker" },
 
+  { import = "astrocommunity.recipes.ai" },
   { import = "astrocommunity.recipes.heirline-mode-text-statusline" },
   { import = "astrocommunity.recipes.picker-nvchad-theme" },
+  { import = "astrocommunity.recipes.vscode" },
+
+  {
+    "AstroNvim/astroui",
+    ---@type AstroUIOpts
+    opts = {
+      colorscheme = "onedark",
+    },
+  },
 }
